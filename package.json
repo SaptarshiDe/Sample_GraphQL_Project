@@ -1,0 +1,21 @@
+{
+  "name": "sample_graphql",
+  "version": "1.0.0",
+  "description": "A demo application for learning GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server": "json-server --watch users/db.json"
+  },
+  "author": "Saptarshi De",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "epress": "0.0.1-security",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "json-server": "^0.16.3",
+    "lodash": "^4.17.21"
+  }
+}
